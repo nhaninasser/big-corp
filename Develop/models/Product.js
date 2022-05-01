@@ -1,4 +1,4 @@
-// import important parts of sequelize library
+0 // import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
@@ -10,6 +10,10 @@ class Product extends Model {}
 Product.init(
   {
     // define columns
+    product_name: "Basketball",
+    price: 200.00,
+    stock: 3,
+    tagIds: [1, 2, 3, 4]
   },
   {
     sequelize,
