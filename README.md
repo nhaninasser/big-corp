@@ -1,4 +1,4 @@
-# E-commerce Back End Starter Code# big-corp
+# big-corp
 
 ## Purpose
 Made a working Express.js API and used Sequelize to interact with a MySQL database.  I used Insomnia to troubleshoot the GET PUT and DELETE requests.
